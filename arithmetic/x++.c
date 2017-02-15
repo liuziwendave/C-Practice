@@ -36,5 +36,26 @@ puts("-------------------------------------------------");
    printf("a++=%d\n",a++);
    printf("a=%d\n",a);
 
+puts("------------------------Part 4------------------------------");
+   
+   puts("init=0;increment=5,counter=1, result=init+increment*counter++");
+
+   int init = 0;
+   int increment = 5;
+   int counter = 1;
+   int result = init + increment*counter++;
+
+   printf("result first time: %d, counter: %d\n", result, counter);
+
+   result = init +increment*counter++;
+
+   printf("result second time: %d, counter: %d\n", result, counter);
+   
+   result=init+increment*(++counter);
+   printf("result third time: %d, counter: %d\n", result, counter);
+
+
+
+
    return EXIT_SUCCESS;
 }
