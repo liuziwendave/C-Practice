@@ -19,7 +19,7 @@ void showbar(void){
 
 
 void barchart(int n){
-   printf("%d: ", n);
+   printf("%d", n);
    for(int i=0; i<n; i++){
       printf("\t-.-\t");
    }
