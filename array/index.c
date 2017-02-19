@@ -5,7 +5,7 @@
 
 void printarr(char name[], int data[], int memory);
 
-int main (int argcm, char **arv){
+int main (int argc, char **arv){
    int arr[Max]={12,23,34,45,45};
 
    arr[3]+=2;
