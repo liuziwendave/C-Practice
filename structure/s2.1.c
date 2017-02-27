@@ -44,9 +44,9 @@ void arrayofstr(void){
 	    int rf=rand()%numname;
 	    int rl=rand()%numname;
 	    int rc=rand()%num;
-	    strcpy("team[i].firstname", firstnamebank[rf]);
-	    strcpy("team[i].lastname", lastnamebank[rl]);
-	    strcpy("team[i].color", colorbank[rc]);
+	    strcpy(team[i].firstname,firstnamebank[rf]);
+	    strcpy(team[i].lastname, lastnamebank[rl]);
+	    strcpy(team[i].color,colorbank[rc]);
 	    team[i].age=rand()%maxage;
 	    team[i].height=4.0+rand()%3+(rand()%10)/10.0;
       }
