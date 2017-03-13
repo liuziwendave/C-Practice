@@ -20,7 +20,7 @@ void sort(float dataset[], int memory){
       float temp;
       int swaped;
       do{
-	 swaped=FALSE; 
+            swaped=FALSE; 
 	    for(int i=0; i<memory;i++){
 	       if(dataset[i-1]>dataset[i]){
 	 		  temp=dataset[i-1];
