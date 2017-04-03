@@ -15,8 +15,12 @@ int main(int argc,char **argv){
       positive_shift(cln);
    }else if(cln<0){
       negative_shift(cln);
+   }else if(cln==0){
+      int ch;
+      while((ch=getchar())!=EOF){
+         putchar(ch);
+      }
    }
-   
    return EXIT_SUCCESS;
 }
 
